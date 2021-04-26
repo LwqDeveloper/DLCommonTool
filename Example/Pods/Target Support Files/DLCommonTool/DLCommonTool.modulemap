@@ -1,0 +1,6 @@
+framework module DLCommonTool {
+  umbrella header "DLCommonTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

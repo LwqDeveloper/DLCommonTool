@@ -1,0 +1,16 @@
+PODS:
+  - DLCommonTool (0.0.1)
+
+DEPENDENCIES:
+  - DLCommonTool (from `../`)
+
+EXTERNAL SOURCES:
+  DLCommonTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DLCommonTool: 8d4c57e323b1a5e19443257abf32bdf46419971e
+
+PODFILE CHECKSUM: 53012c1acaf27daffdeff525ffc40a05df6e55f7
+
+COCOAPODS: 1.10.1

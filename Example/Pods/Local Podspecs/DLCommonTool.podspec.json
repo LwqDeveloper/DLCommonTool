@@ -1,0 +1,21 @@
+{
+  "name": "DLCommonTool",
+  "version": "0.0.1",
+  "summary": "常用类",
+  "homepage": "https://github.com/LwqDeveloper/DLCommonTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LwqDeveloper": "lee_weiqiong@163.com"
+  },
+  "source": {
+    "git": "https://github.com/LwqDeveloper/DLCommonTool.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DLCommonTool/Classes/**/*"
+}
