@@ -14,8 +14,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (nullable UIImage *)imageWithColor:(UIColor *)color;
 
-- (UIImage *)applyImageColor:(UIColor *)color;
-
 @end
 
 NS_ASSUME_NONNULL_END

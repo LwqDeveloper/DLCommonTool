@@ -23,9 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// toSuperview
 - (UIView *(^)(UIView *))dl_toSuperview;
 
-/// 截图
-- (UIImage *)dl_snapImage;
-
 @end
 
 NS_ASSUME_NONNULL_END

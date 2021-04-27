@@ -44,4 +44,4 @@
 #define kFormatData(x)      [NSString stringWithFormat:@"%@",@(s)]
 #define kSafeString(x)      (([x isKindOfClass:[NSNull class]] || [x isEqual:[NSNull null]] || [x isEqual:NULL] || [[x class] isSubclassOfClass:[NSNull class]] || x == nil || x == NULL || [x isKindOfClass:[NSNull class]] || [[x stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length] == 0 || [x isEqualToString:@"<null>"] || [x isEqualToString:@"(null)"]) ? @"": x)
 
-#endif /* DLCommonMacro_h_h */
+#endif /* DLCommonMacro_h */
