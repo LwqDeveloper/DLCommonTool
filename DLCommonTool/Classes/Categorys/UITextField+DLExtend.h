@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UITextField (DLExtend)
 
+- (void)setPlaceholder:(NSString *)placeholder color:(UIColor *)color;
+
+- (void)addFieldLeftViewImageName:(NSString *)imageName viewSize:(CGSize)viewSize imageFrame:(CGRect)imageFrame;
+
+- (void)addFieldLeftViewText:(NSString *)text font:(UIFont *)font color:(UIColor *)color viewSize:(CGSize)viewSize leading:(CGFloat)leading;
+
 @end
 
 NS_ASSUME_NONNULL_END

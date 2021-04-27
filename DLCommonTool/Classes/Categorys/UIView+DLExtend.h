@@ -23,6 +23,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// toSuperview
 - (UIView *(^)(UIView *))dl_toSuperview;
 
+/// 获取截图
+- (UIImage *)getSnapImage;
+/// 添加渐渐层
+- (CAGradientLayer *)addGradientLayerFrame:(CGRect)frame StartC:(UIColor *)startC startP:(CGPoint)startP endC:(UIColor *)endC endP:(CGPoint)endP;
+/// 获取视图控制器
+- (UIViewController *)getViewController;
+
 @end
 
 NS_ASSUME_NONNULL_END

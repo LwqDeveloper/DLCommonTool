@@ -49,4 +49,37 @@
     };
 }
 
+/// 获取截图
+- (UIImage *)getSnapImage {
+    UIGraphicsBeginImageContext(self.bounds.size);
+    [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
+
+/// 添加渐渐层
+- (CAGradientLayer *)addGradientLayerFrame:(CGRect)frame StartC:(UIColor *)startC startP:(CGPoint)startP endC:(UIColor *)endC endP:(CGPoint)endP {
+    CAGradientLayer *gl = [CAGradientLayer layer];
+    gl.frame = frame;
+    gl.startPoint = startP;
+    gl.endPoint = endP;
+    gl.colors = @[(__bridge id)startC.CGColor,(__bridge id)endC.CGColor];
+    gl.locations = @[@(0),@(1.0f)];
+    [self.layer addSublayer:gl];
+    return gl;
+}
+
+/// 获取视图控制器
+- (UIViewController *)getViewController {
+    for (UIView *view = self; view; view = view.superview) {
+        UIResponder *nextResponder = [view nextResponder];
+        if ([nextResponder isKindOfClass:[UIViewController class]]) {
+            return (UIViewController *)nextResponder;
+        }
+    }
+    return nil;
+
+}
+
 @end
