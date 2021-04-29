@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// wk
 @property (nonatomic, strong) WKWebView *webView;
 //网页加载进度视图
-@property (nonatomic, strong) UIProgressView * progressView;
+@property (nonatomic, strong) UIProgressView *progressView;
 
 /// title
 @property (nonatomic, assign) BOOL needUpdateTitle;
