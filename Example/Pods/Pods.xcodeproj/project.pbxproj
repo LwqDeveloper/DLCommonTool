@@ -32,6 +32,8 @@
 		672822BF3ED31DF42910DE7F87DD09B7 /* DLCommonTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C55D33F797AC1E4CF279F46331A39531 /* DLCommonTool-dummy.m */; };
 		72EA17983CDD1BBB3244F9DCFDE84DB5 /* UIImage+DLExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = A80C6BA496A94F6535A4BB960587CCBF /* UIImage+DLExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		744E3C93643A12BDE51904073A5C5C01 /* DLAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D73033F04D295E6D0FB19AE83F46CCF /* DLAuthorization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82EBA7D8263A9928002FBD22 /* DLCommonWebController.h in Headers */ = {isa = PBXBuildFile; fileRef = 82EBA7D6263A9928002FBD22 /* DLCommonWebController.h */; };
+		82EBA7D9263A9928002FBD22 /* DLCommonWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EBA7D7263A9928002FBD22 /* DLCommonWebController.m */; };
 		904D2E02694CD1DE0DD1963ED981BACC /* UIDevice+DLExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = CF813758258E97BB9571F76EDD587FC1 /* UIDevice+DLExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAEA715804F17829AF92FEDCC6D1A754 /* UIButton+DLExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 1115B806089E0CB13965F3C8DACB8C7A /* UIButton+DLExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B95459C0E2EBD60B15F4F1148A75E65F /* UIImageView+DLExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8685CBFD87700B9ADF5879147CC19B69 /* UIImageView+DLExtend.m */; };
@@ -70,18 +72,18 @@
 		07001921F63249114A8F5C0992A3A9C5 /* NSDate+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DLExtend.m"; sourceTree = "<group>"; };
 		07FF4D2A3DA9EA607E36E1727C4AEE9C /* UIButton+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DLExtend.m"; sourceTree = "<group>"; };
 		0BAE6F202E1F3726DCF34B9E63FC4083 /* UIImage+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DLExtend.m"; sourceTree = "<group>"; };
-		0F0670DCD858CD36D778064DC9A567FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0F0670DCD858CD36D778064DC9A567FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0F60880D4E4C9AC44A8CAB06ADCBD64B /* NSString+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DLExtend.m"; sourceTree = "<group>"; };
 		1115B806089E0CB13965F3C8DACB8C7A /* UIButton+DLExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+DLExtend.h"; sourceTree = "<group>"; };
 		141A0787B727095D2DD509BD4A4F099D /* Pods-DLCommonTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLCommonTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		16A3AC0FDBEE333797C1398150852FB7 /* Pods-DLCommonTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLCommonTool_Tests-Info.plist"; sourceTree = "<group>"; };
 		180BBBAA24D3C4FE55368C75259D4EBA /* UIDevice+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DLExtend.m"; sourceTree = "<group>"; };
-		1B4F08862B468DFB9E633220111C35D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1B4F08862B468DFB9E633220111C35D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1D5BC87EA8734BA6C73F13B16DD3615A /* Pods-DLCommonTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DLCommonTool_Example.modulemap"; sourceTree = "<group>"; };
-		212A24DD36A2296DA24BA365B8053FBE /* DLCommonTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLCommonTool.framework; path = DLCommonTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		212A24DD36A2296DA24BA365B8053FBE /* DLCommonTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLCommonTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		255B129260C4815FBF8C5C7C42505820 /* UIView+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+DLExtend.m"; sourceTree = "<group>"; };
 		2706E6CC0B891125A36B56DAFD76B26D /* DLCommonTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLCommonTool-Info.plist"; sourceTree = "<group>"; };
-		28AAE540653C2A5761C8350D5B992D5E /* Pods_DLCommonTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DLCommonTool_Tests.framework; path = "Pods-DLCommonTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AAE540653C2A5761C8350D5B992D5E /* Pods_DLCommonTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLCommonTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC61DB4078C8DBDB290314D1C83FC45 /* Pods-DLCommonTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLCommonTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3378B68E073FDA3BB1F6BF6DEC2A5A30 /* Pods-DLCommonTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLCommonTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		341F3D16C9BEAF4F10BFEA2FD9BB5481 /* DLCommonTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLCommonTool.modulemap; sourceTree = "<group>"; };
@@ -97,15 +99,17 @@
 		62307194AABD8714C2BFB66BC2A91D3C /* DLAuthorization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLAuthorization.m; sourceTree = "<group>"; };
 		63E1DD8196BCCB1D902F87B36F97678E /* Pods-DLCommonTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLCommonTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		786CE66FAE5914F6DF6EE9C0588EE736 /* DLCommonTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DLCommonTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		786CE66FAE5914F6DF6EE9C0588EE736 /* DLCommonTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DLCommonTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7904FC6ADE96257735E03F321F58AE7F /* DLCommonTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLCommonTool-prefix.pch"; sourceTree = "<group>"; };
 		79222B4B3D45BE841C115EF79E7993CE /* DLBaseController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLBaseController.m; sourceTree = "<group>"; };
 		7E736591D120862228F855EB4EA3BC1C /* UITextField+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DLExtend.m"; sourceTree = "<group>"; };
+		82EBA7D6263A9928002FBD22 /* DLCommonWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLCommonWebController.h; sourceTree = "<group>"; };
+		82EBA7D7263A9928002FBD22 /* DLCommonWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLCommonWebController.m; sourceTree = "<group>"; };
 		840794106BF4CD4638F7B2AB3D4908AA /* DLCommonTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLCommonTool.debug.xcconfig; sourceTree = "<group>"; };
 		8685CBFD87700B9ADF5879147CC19B69 /* UIImageView+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DLExtend.m"; sourceTree = "<group>"; };
 		916AB76DD3086EBA68D39060BD2AF083 /* UITabBar+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+DLExtend.m"; sourceTree = "<group>"; };
 		987C462AAF510FA8F70270E20EF3D456 /* Pods-DLCommonTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DLCommonTool_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E629E3A88D299FAFCB95C4CBED60C9A /* Pods-DLCommonTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLCommonTool_Example-Info.plist"; sourceTree = "<group>"; };
 		A10B0808999B16D0E683EA0F82A4730F /* DLCommonModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLCommonModule.h; path = DLCommonTool/Classes/DLCommonModule.h; sourceTree = "<group>"; };
 		A80C6BA496A94F6535A4BB960587CCBF /* UIImage+DLExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+DLExtend.h"; sourceTree = "<group>"; };
@@ -114,7 +118,7 @@
 		C528CF872003DED259B76033BF5C47D5 /* DLCommonTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLCommonTool-umbrella.h"; sourceTree = "<group>"; };
 		C55D33F797AC1E4CF279F46331A39531 /* DLCommonTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLCommonTool-dummy.m"; sourceTree = "<group>"; };
 		C5FCE322E5E71525DC89E3BE46B64507 /* UITextField+DLExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+DLExtend.h"; sourceTree = "<group>"; };
-		C6DFAD1FA6DC6D4B43F94E03CC1950B7 /* Pods_DLCommonTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DLCommonTool_Example.framework; path = "Pods-DLCommonTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DFAD1FA6DC6D4B43F94E03CC1950B7 /* Pods_DLCommonTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLCommonTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72AE585BBE94749D14662A725F1FDF6 /* Pods-DLCommonTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLCommonTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF813758258E97BB9571F76EDD587FC1 /* UIDevice+DLExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DLExtend.h"; sourceTree = "<group>"; };
 		CFCCA93367C731A4E8DF1197011D55FE /* DLCommonMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLCommonMacro.h; path = DLCommonTool/Classes/DLCommonMacro.h; sourceTree = "<group>"; };
@@ -262,6 +266,8 @@
 			children = (
 				F737A99DAEC3C52B65A3DBC7BAFFFD8A /* DLBaseController.h */,
 				79222B4B3D45BE841C115EF79E7993CE /* DLBaseController.m */,
+				82EBA7D6263A9928002FBD22 /* DLCommonWebController.h */,
+				82EBA7D7263A9928002FBD22 /* DLCommonWebController.m */,
 			);
 			name = Bases;
 			path = DLCommonTool/Classes/Bases;
@@ -348,6 +354,7 @@
 				222968589114640441E036446687E977 /* DLBaseController.h in Headers */,
 				567793049DC8B1D118937E318C2D7F73 /* DLCommonMacro.h in Headers */,
 				E814034AA23F8221DF3D9577F7FF598D /* DLCommonModule.h in Headers */,
+				82EBA7D8263A9928002FBD22 /* DLCommonWebController.h in Headers */,
 				0FEF73B33A96C23AE2774CE233D791A9 /* DLCommonTool-umbrella.h in Headers */,
 				0D67CC2B6BCA54274B12CDE69124F5A4 /* NSData+DLExtend.h in Headers */,
 				5AF4B82F49D206A5564CB72A43844E42 /* NSDate+DLExtend.h in Headers */,
@@ -510,6 +517,7 @@
 				11575400C83DD6060627592D57B076B5 /* UILabel+DLExtend.m in Sources */,
 				030B3576A79B5B140EE7DCF5DB2C3B42 /* UITabBar+DLExtend.m in Sources */,
 				19788B47C7ABF59BD7B27EB4497DC141 /* UITextField+DLExtend.m in Sources */,
+				82EBA7D9263A9928002FBD22 /* DLCommonWebController.m in Sources */,
 				D8397B82585FBA80203B0E550A13197E /* UITextView+DLExtend.m in Sources */,
 				E1EA7B82E8ADCFD7E1C76360F2A65A37 /* UIView+DLExtend.m in Sources */,
 			);
@@ -830,8 +838,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
