@@ -41,19 +41,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    if (self.needUpdateTitle) {
-        [self.webView addObserver:self
-                       forKeyPath:@"title"
-                          options:NSKeyValueObservingOptionNew
-                          context:nil];
-    }
-    if (self.needUpdateProgress) {
-        [self.webView addObserver:self
-                       forKeyPath:NSStringFromSelector(@selector(estimatedProgress))
-                          options:0
-                          context:nil];
-    }
 }
 
 //被自定义的WKScriptMessageHandler在回调方法里通过代理回调回来，绕了一圈就是为了解决内存不释放的问题
@@ -134,8 +121,6 @@
     } else {
         decisionHandler(WKNavigationActionPolicyAllow);
     }
-    
-    
 }
 
 // 根据客户端受到的服务器响应头以及response相关信息来决定是否可以跳转
@@ -237,6 +222,24 @@
                                change:change
                               context:context];
     }
+}
+
+#pragma mark - setter
+- (void)setNeedUpdateTitle:(BOOL)needUpdateTitle {
+    _needUpdateTitle = needUpdateTitle;
+    
+    [self.webView addObserver:self
+                   forKeyPath:@"title"
+                      options:NSKeyValueObservingOptionNew
+                      context:nil];
+}
+
+- (void)setNeedUpdateProgress:(BOOL)needUpdateProgress {
+    _needUpdateProgress = needUpdateProgress;
+    [self.webView addObserver:self
+                   forKeyPath:NSStringFromSelector(@selector(estimatedProgress))
+                      options:0
+                      context:nil];
 }
 
 #pragma mark - getter
