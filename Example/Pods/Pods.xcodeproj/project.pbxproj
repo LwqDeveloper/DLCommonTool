@@ -32,6 +32,8 @@
 		672822BF3ED31DF42910DE7F87DD09B7 /* DLCommonTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C55D33F797AC1E4CF279F46331A39531 /* DLCommonTool-dummy.m */; };
 		72EA17983CDD1BBB3244F9DCFDE84DB5 /* UIImage+DLExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = A80C6BA496A94F6535A4BB960587CCBF /* UIImage+DLExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		744E3C93643A12BDE51904073A5C5C01 /* DLAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D73033F04D295E6D0FB19AE83F46CCF /* DLAuthorization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8259C45E2645190300C1D392 /* NSTimer+DLWeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 8259C45C2645190300C1D392 /* NSTimer+DLWeak.h */; };
+		8259C45F2645190300C1D392 /* NSTimer+DLWeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8259C45D2645190300C1D392 /* NSTimer+DLWeak.m */; };
 		82EBA7D8263A9928002FBD22 /* DLCommonWebController.h in Headers */ = {isa = PBXBuildFile; fileRef = 82EBA7D6263A9928002FBD22 /* DLCommonWebController.h */; };
 		82EBA7D9263A9928002FBD22 /* DLCommonWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EBA7D7263A9928002FBD22 /* DLCommonWebController.m */; };
 		904D2E02694CD1DE0DD1963ED981BACC /* UIDevice+DLExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = CF813758258E97BB9571F76EDD587FC1 /* UIDevice+DLExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -103,6 +105,8 @@
 		7904FC6ADE96257735E03F321F58AE7F /* DLCommonTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLCommonTool-prefix.pch"; sourceTree = "<group>"; };
 		79222B4B3D45BE841C115EF79E7993CE /* DLBaseController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLBaseController.m; sourceTree = "<group>"; };
 		7E736591D120862228F855EB4EA3BC1C /* UITextField+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DLExtend.m"; sourceTree = "<group>"; };
+		8259C45C2645190300C1D392 /* NSTimer+DLWeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+DLWeak.h"; sourceTree = "<group>"; };
+		8259C45D2645190300C1D392 /* NSTimer+DLWeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+DLWeak.m"; sourceTree = "<group>"; };
 		82EBA7D6263A9928002FBD22 /* DLCommonWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLCommonWebController.h; sourceTree = "<group>"; };
 		82EBA7D7263A9928002FBD22 /* DLCommonWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLCommonWebController.m; sourceTree = "<group>"; };
 		840794106BF4CD4638F7B2AB3D4908AA /* DLCommonTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLCommonTool.debug.xcconfig; sourceTree = "<group>"; };
@@ -338,6 +342,8 @@
 				EDE6F9239F42D8813761F7067B488C74 /* UITextView+DLExtend.m */,
 				FCB936B33A54028B48800007E047E2E1 /* UIView+DLExtend.h */,
 				255B129260C4815FBF8C5C7C42505820 /* UIView+DLExtend.m */,
+				8259C45C2645190300C1D392 /* NSTimer+DLWeak.h */,
+				8259C45D2645190300C1D392 /* NSTimer+DLWeak.m */,
 			);
 			name = Categorys;
 			path = DLCommonTool/Classes/Categorys;
@@ -365,6 +371,7 @@
 				4A43285E14E6EBA5497AA1251D12B1B5 /* UIImageView+DLExtend.h in Headers */,
 				3B6D87717EC884A3CF1FF48B23FFAAA1 /* UILabel+DLExtend.h in Headers */,
 				1B3828D70CF424057556DBA5D34275D2 /* UITabBar+DLExtend.h in Headers */,
+				8259C45E2645190300C1D392 /* NSTimer+DLWeak.h in Headers */,
 				04895D728207343CF735ABF60494296F /* UITextField+DLExtend.h in Headers */,
 				E27108A7405443BF2B510F7C91DAA2BA /* UITextView+DLExtend.h in Headers */,
 				F45D392609D708D2154171CFAD8F3298 /* UIView+DLExtend.h in Headers */,
@@ -512,6 +519,7 @@
 				D0012ACFC4BD1F9BFC90F30D61687AB5 /* NSString+DLExtend.m in Sources */,
 				E3E29F6BE97C6E121316C5E67924AC4C /* UIButton+DLExtend.m in Sources */,
 				531AD0FCCF04CF7F75B465EE6522CE83 /* UIDevice+DLExtend.m in Sources */,
+				8259C45F2645190300C1D392 /* NSTimer+DLWeak.m in Sources */,
 				5D622433EC9687EDA9E3F345210C2977 /* UIImage+DLExtend.m in Sources */,
 				B95459C0E2EBD60B15F4F1148A75E65F /* UIImageView+DLExtend.m in Sources */,
 				11575400C83DD6060627592D57B076B5 /* UILabel+DLExtend.m in Sources */,

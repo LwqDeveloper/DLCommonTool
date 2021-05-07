@@ -21,6 +21,7 @@
 #import "UITextField+DLExtend.h"
 #import "UITextView+DLExtend.h"
 #import "UIView+DLExtend.h"
+#import "NSTimer+DLWeak.h"
 
 #import "DLAuthorization.h"
 
