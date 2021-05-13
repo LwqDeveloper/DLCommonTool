@@ -1,6 +1,6 @@
 {
   "name": "DLCommonTool",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "summary": "常用类",
   "homepage": "https://github.com/LwqDeveloper/DLCommonTool",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/LwqDeveloper/DLCommonTool.git",
-    "tag": "0.0.1"
+    "tag": "0.0.7"
   },
   "platforms": {
     "ios": "8.0"

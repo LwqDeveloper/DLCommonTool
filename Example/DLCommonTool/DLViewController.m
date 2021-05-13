@@ -7,6 +7,8 @@
 //
 
 #import "DLViewController.h"
+#import <DLCommonTool/DLCustomAlert.h>
+#import <DLCommonTool/DLCustomSheet.h>
 
 @interface DLViewController ()
 
@@ -18,6 +20,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [DLCustomSheet showSheetTitles:@[@"111", @"222"] configModel:nil completion:^(NSInteger index) {
+        
+    }];
+
 }
 
 - (void)didReceiveMemoryWarning
