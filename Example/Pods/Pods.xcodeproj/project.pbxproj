@@ -32,6 +32,8 @@
 		6956E0A8D48BD81910B5BC8F48F659EF /* NSTimer+DLWeak.m in Sources */ = {isa = PBXBuildFile; fileRef = CA720B5D7D955EB3EFE1C98238236EF5 /* NSTimer+DLWeak.m */; };
 		729B5F795CDB9EC6195FA9C7DBF55D86 /* UITabBar+DLExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E66FF8DA4B467A5866E38D74DB08B0 /* UITabBar+DLExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D58598795730CD29D1C0D5DBB209B63 /* UIButton+DLExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = B17C7043B1B7847D27EAA5C96CD727D0 /* UIButton+DLExtend.m */; };
+		82829ED02654B14300A74B0D /* DLScreenAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 82829ECE2654B14300A74B0D /* DLScreenAdapter.h */; };
+		82829ED12654B14300A74B0D /* DLScreenAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82829ECF2654B14300A74B0D /* DLScreenAdapter.m */; };
 		8D62A90851C37ABED9A9EA62DB87D05A /* NSString+DLExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F1AC559FDBD8178C08ECDCFDDD8E8A /* NSString+DLExtend.m */; };
 		905DB7B3F6293D857E9344508B76C3FF /* DLBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B3CA7E426B4ADBDB4C16B71A10E150 /* DLBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95CECACE4147B69551AB293C23E42150 /* UILabel+DLExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F4EA88C577EA89920C54B5015C95B7 /* UILabel+DLExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -76,15 +78,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BA4EDFE76A1911B9076030B57BCA284 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0BA4EDFE76A1911B9076030B57BCA284 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0FFB432D38965D21C1488AE135F9D35D /* DLCustomAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLCustomAlert.h; sourceTree = "<group>"; };
 		141A0787B727095D2DD509BD4A4F099D /* Pods-DLCommonTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLCommonTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		16A3AC0FDBEE333797C1398150852FB7 /* Pods-DLCommonTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLCommonTool_Tests-Info.plist"; sourceTree = "<group>"; };
 		1C966978071E1970FF50E641D72A12E3 /* UILabel+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DLExtend.m"; sourceTree = "<group>"; };
 		1D5BC87EA8734BA6C73F13B16DD3615A /* Pods-DLCommonTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DLCommonTool_Example.modulemap"; sourceTree = "<group>"; };
-		212A24DD36A2296DA24BA365B8053FBE /* DLCommonTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLCommonTool.framework; path = DLCommonTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		212A24DD36A2296DA24BA365B8053FBE /* DLCommonTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLCommonTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BABF0D23535B341F510011694AF113 /* DLAuthorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLAuthorization.h; sourceTree = "<group>"; };
-		28AAE540653C2A5761C8350D5B992D5E /* Pods_DLCommonTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DLCommonTool_Tests.framework; path = "Pods-DLCommonTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AAE540653C2A5761C8350D5B992D5E /* Pods_DLCommonTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLCommonTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B3CA7E426B4ADBDB4C16B71A10E150 /* DLBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLBaseView.h; sourceTree = "<group>"; };
 		2AC61DB4078C8DBDB290314D1C83FC45 /* Pods-DLCommonTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLCommonTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		309139CD06BC84B76752B99829F6DC93 /* NSDate+DLExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+DLExtend.h"; sourceTree = "<group>"; };
@@ -98,21 +100,23 @@
 		55FCC3A78169B551C5D3D09179F95E09 /* DLCommonTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLCommonTool.release.xcconfig; sourceTree = "<group>"; };
 		5C1081B0D831E1051CECF14F80297F52 /* Pods-DLCommonTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLCommonTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5D85E639D9E20D9EB2EC617CAA0050F0 /* Pods-DLCommonTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DLCommonTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5E355275226C8046E06D0FA69379585D /* DLCommonTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DLCommonTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E355275226C8046E06D0FA69379585D /* DLCommonTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DLCommonTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5E91A3D5BBC782DEB34FD5BCE6D328B6 /* UITextView+DLExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+DLExtend.h"; sourceTree = "<group>"; };
 		63E1DD8196BCCB1D902F87B36F97678E /* Pods-DLCommonTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLCommonTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6724EB43612B299D9F325D67A70BC1EB /* UIImage+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DLExtend.m"; sourceTree = "<group>"; };
-		692C29AB26CE42DFC243E5826A7B4049 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		692C29AB26CE42DFC243E5826A7B4049 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6B20AF128F34A5CEF76E6E8B0DB625DF /* DLCustomSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLCustomSheet.m; sourceTree = "<group>"; };
 		6B3F439CDD12665E16C85E28B12B7354 /* UITextField+DLExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+DLExtend.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75F4EA88C577EA89920C54B5015C95B7 /* UILabel+DLExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+DLExtend.h"; sourceTree = "<group>"; };
 		772ADCC5CECD1FB61924EF78F1F5E3DD /* UITextView+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+DLExtend.m"; sourceTree = "<group>"; };
 		7D2F02318654C0DC16AB5C5D4728B40B /* UITabBar+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+DLExtend.m"; sourceTree = "<group>"; };
+		82829ECE2654B14300A74B0D /* DLScreenAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLScreenAdapter.h; sourceTree = "<group>"; };
+		82829ECF2654B14300A74B0D /* DLScreenAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLScreenAdapter.m; sourceTree = "<group>"; };
 		8718839ECABE82218938BFA5C8423653 /* DLCommonTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLCommonTool-prefix.pch"; sourceTree = "<group>"; };
 		987C462AAF510FA8F70270E20EF3D456 /* Pods-DLCommonTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DLCommonTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		9C43D44C83FA736784A1B239F8F34D76 /* DLCommonTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLCommonTool.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E629E3A88D299FAFCB95C4CBED60C9A /* Pods-DLCommonTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLCommonTool_Example-Info.plist"; sourceTree = "<group>"; };
 		9ED20BB2EE9D8FB5E6DE2C160136B85A /* UIView+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+DLExtend.m"; sourceTree = "<group>"; };
 		A1F1AC559FDBD8178C08ECDCFDDD8E8A /* NSString+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DLExtend.m"; sourceTree = "<group>"; };
@@ -128,7 +132,7 @@
 		B8F564FB375145C89822E7C75A64A2C1 /* DLCustomSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLCustomSheet.h; sourceTree = "<group>"; };
 		C362839C64B696E1BACB96E8D12D6A4C /* UIView+DLExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+DLExtend.h"; sourceTree = "<group>"; };
 		C4E60CD6242F1E80243701391F826DAC /* UIDevice+DLExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DLExtend.h"; sourceTree = "<group>"; };
-		C6DFAD1FA6DC6D4B43F94E03CC1950B7 /* Pods_DLCommonTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DLCommonTool_Example.framework; path = "Pods-DLCommonTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DFAD1FA6DC6D4B43F94E03CC1950B7 /* Pods_DLCommonTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLCommonTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72AE585BBE94749D14662A725F1FDF6 /* Pods-DLCommonTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLCommonTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7AEDA1119253C5B3E6E8E3EC13E0801 /* UIImageView+DLExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DLExtend.m"; sourceTree = "<group>"; };
 		CA720B5D7D955EB3EFE1C98238236EF5 /* NSTimer+DLWeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+DLWeak.m"; sourceTree = "<group>"; };
@@ -218,6 +222,8 @@
 				4940840B9C638155855D4A0B6C60B2C8 /* DLCustomAlert.m */,
 				B8F564FB375145C89822E7C75A64A2C1 /* DLCustomSheet.h */,
 				6B20AF128F34A5CEF76E6E8B0DB625DF /* DLCustomSheet.m */,
+				82829ECE2654B14300A74B0D /* DLScreenAdapter.h */,
+				82829ECF2654B14300A74B0D /* DLScreenAdapter.m */,
 			);
 			name = Customs;
 			path = DLCommonTool/Classes/Customs;
@@ -391,6 +397,7 @@
 				BD5F85BD4836CDC3382BAF463D0BA485 /* DLCommonWebController.h in Headers */,
 				BD6C5E52E41CBDBCED87B3FA8DBF6D45 /* DLCustomAlert.h in Headers */,
 				42AA3D00BB76A1D93492221EA522289C /* DLCustomSheet.h in Headers */,
+				82829ED02654B14300A74B0D /* DLScreenAdapter.h in Headers */,
 				D771A2C6C1662F57EF4F09CC257A9BF4 /* NSData+DLExtend.h in Headers */,
 				F5120AB8F63A9735CF234C985AE621F0 /* NSDate+DLExtend.h in Headers */,
 				E8B5AB02A55D3F5521774059F23E2091 /* NSString+DLExtend.h in Headers */,
@@ -567,6 +574,7 @@
 				6829C9A76CCC9124EEEA0D6520D312D2 /* UITabBar+DLExtend.m in Sources */,
 				56B36E8F7BB29330617F962E81BFA09D /* UITextField+DLExtend.m in Sources */,
 				108FE38992E7742E927DFAA7DA288ECE /* UITextView+DLExtend.m in Sources */,
+				82829ED12654B14300A74B0D /* DLScreenAdapter.m in Sources */,
 				354BEC371049C9C6D388B5E912BA4FCD /* UIView+DLExtend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -901,8 +909,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
