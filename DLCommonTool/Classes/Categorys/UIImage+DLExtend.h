@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (DLExtend)
 
+- (UIImage *)dl_fixOrientation;
+
 + (nullable UIImage *)imageWithColor:(UIColor *)color;
 
 @end
