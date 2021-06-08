@@ -23,8 +23,6 @@
 #import "UIView+DLExtend.h"
 #import "NSTimer+DLWeak.h"
 
-#import "DLAuthorization.h"
-
 #import "DLBaseController.h"
 
 #endif /* DLCommonModule_h */

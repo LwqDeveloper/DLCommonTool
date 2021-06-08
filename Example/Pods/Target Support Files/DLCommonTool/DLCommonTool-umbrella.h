@@ -26,9 +26,9 @@
 #import "UITextField+DLExtend.h"
 #import "UITextView+DLExtend.h"
 #import "UIView+DLExtend.h"
-#import "DLAuthorization.h"
 #import "DLCustomAlert.h"
 #import "DLCustomSheet.h"
+#import "DLScreenAdapter.h"
 #import "DLCommonMacro.h"
 #import "DLCommonModule.h"
 

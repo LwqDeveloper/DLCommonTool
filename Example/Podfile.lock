@@ -1,5 +1,5 @@
 PODS:
-  - DLCommonTool (0.0.7)
+  - DLCommonTool (0.1.0)
 
 DEPENDENCIES:
   - DLCommonTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DLCommonTool: abdbfda38e1546bee580402cf64ec23a63b6dc4b
+  DLCommonTool: 258aab1902f1838e48eb985aa0ba17bc40dc2819
 
 PODFILE CHECKSUM: 53012c1acaf27daffdeff525ffc40a05df6e55f7
 
